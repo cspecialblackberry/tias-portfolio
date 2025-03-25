@@ -5,7 +5,7 @@ export default function Header() {
         <>
             <div className="header">
                 <Link to={'/'}>
-                    <img src="images/logo.png" className="logo"/>
+                    <img src="./images/logo.png" className="logo"/>
                 </Link>
                 <div className="workNav">
                     <div className="navHeader_div">
