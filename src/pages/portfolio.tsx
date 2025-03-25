@@ -13,6 +13,7 @@ export default function Portfolio() {
                             name={project.name}
                             year={project.year}
                             coverImage={project.coverImage}
+                            link={project.link}
                         />
                     )
                 })}

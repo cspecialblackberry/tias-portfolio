@@ -6,6 +6,7 @@ import Portfolio from './pages/portfolio.tsx'
 import Contact from './pages/contact.tsx';
 import About from './pages/about.tsx';
 import Project from './pages/project.tsx';
+import UltaRebrand from './pages/work-pages/ultaRebrand.tsx';
 import './index.css'
 
 const router = createBrowserRouter([
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: '/project',
         element: <Project />
+      },
+      {
+        path: '/makeup',
+        element: <UltaRebrand />
       }
     ]
   }
